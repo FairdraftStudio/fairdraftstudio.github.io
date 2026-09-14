@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fairdraft Studio — Client templates for freelancers, coaches and social media managers</title>
+<meta name="description" content="Editable client templates in Word and Google Docs: proposals, agreements, reports and invoice emails, plus Claude skills that fill them in from your notes.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230F4C5C'/><text x='50' y='72' font-size='62' font-family='Georgia,serif' fill='%23F6F1EA' text-anchor='middle'>f</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #0F4C5C;
+    --orange: #C2410C;
+    --bg: #F6F1EA;
+    --card: #FFFFFF;
+    --text: #1F2937;
+    --muted: #6B7280;
+    --line: #E3DCD2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --teal: #7FD1E0;
+      --orange: #F97316;
+      --bg: #12171A;
+      --card: #1B2226;
+      --text: #E8EDEF;
+      --muted: #9BA6AC;
+      --line: #2A343A;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: Inter, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.55; padding: 0 20px 64px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  header { padding: 56px 0 40px; text-align: center; }
+  .logo { width: 72px; height: 72px; border-radius: 16px; background: var(--teal); color: var(--bg);
+          font-family: Fraunces, Georgia, serif; font-size: 42px; line-height: 72px; display: inline-block; }
+  h1 { font-family: Fraunces, Georgia, serif; font-size: clamp(30px, 6vw, 46px); color: var(--teal);
+       line-height: 1.05; margin: 20px 0 12px; }
+  .tagline { font-size: clamp(16px, 2.4vw, 20px); color: var(--muted); max-width: 32em; margin: 0 auto; }
+  h2 { font-family: Fraunces, Georgia, serif; font-size: 26px; color: var(--teal); margin: 40px 0 16px; }
+  .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: flex; flex-direction: column; }
+  .card h3 { font-size: 19px; color: var(--teal); margin-bottom: 6px; }
+  .card p { font-size: 15px; color: var(--muted); margin-bottom: 14px; }
+  .card ul { list-style: none; font-size: 14px; margin-bottom: 18px; }
+  .card li { padding-left: 18px; position: relative; margin-bottom: 5px; }
+  .card li::before { content: "✓"; position: absolute; left: 0; color: var(--orange); font-weight: 700; }
+  .links { margin-top: auto; display: flex; gap: 10px; flex-wrap: wrap; }
+  a.btn { text-decoration: none; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 99px;
+          background: var(--teal); color: var(--bg); }
+  a.btn.ghost { background: transparent; color: var(--teal); border: 2px solid var(--teal); }
+  .soon { font-size: 13px; font-weight: 600; color: var(--orange); align-self: center; }
+  .note { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  footer { margin-top: 52px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); text-align: center; }
+  footer a { color: var(--teal); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="logo">f</span>
+  <h1>Client paperwork, already written</h1>
+  <p class="tagline">Editable templates for freelancers, coaches and social media managers, in Word and Google Docs. Plus Claude skills that fill them in from your own notes.</p>
+</header>
+
+<h2>Template kits</h2>
+<div class="grid">
+
+  <div class="card">
+    <h3>Client-Ops Kit</h3>
+    <p>For freelancers, consultants and small agencies.</p>
+    <ul>
+      <li>Proposal with three price options</li>
+      <li>Scope of work with revision limits</li>
+      <li>Client status report + weekly email</li>
+      <li>Late invoice emails, script, tracker</li>
+      <li>Meeting notes with action items</li>
+    </ul>
+    <div class="links">
+      <a class="btn" href="https://fairdraftstudio.gumroad.com/l/client-ops-kit">Templates + Claude skills</a>
+      <a class="btn ghost" href="https://www.etsy.com/listing/4573299364">Templates on Etsy</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Coaching Client Kit</h3>
+    <p>For life, career, business and wellness coaches.</p>
+    <ul>
+      <li>Client intake form</li>
+      <li>Discovery call guide + proposal</li>
+      <li>Coaching agreement</li>
+      <li>Session notes + recap email</li>
+      <li>Progress review + testimonial ask</li>
+    </ul>
+    <div class="links">
+      <a class="btn" href="https://fairdraftstudio.gumroad.com/l/coaching-client-kit">Templates + Claude skills</a>
+      <a class="btn ghost" href="https://www.etsy.com/listing/4573318387">Templates on Etsy</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Social Media Manager Kit</h3>
+    <p>For freelance social media managers and small agencies.</p>
+    <ul>
+      <li>Client onboarding questionnaire</li>
+      <li>Proposal with three packages</li>
+      <li>Content calendar + approvals</li>
+      <li>Monthly report + report email</li>
+      <li>Service agreement</li>
+    </ul>
+    <div class="links"><span class="soon">Coming soon</span></div>
+  </div>
+
+</div>
+
+<h2>Free</h2>
+<div class="grid">
+
+  <div class="card">
+    <h3>Client Onboarding Checklist</h3>
+    <p>Two pages that take a new client from "yes" to kick-off: scope, deposit, access, communication, and a kick-off call agenda.</p>
+    <div class="links"><span class="soon">Coming soon</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Call Notes to Actions</h3>
+    <p>A free, open-source Claude skill: paste a transcript or rough notes, get decisions, an action table with owners and dates, and a follow-up email.</p>
+    <div class="links">
+      <a class="btn" href="https://github.com/FairdraftStudio/call-notes-to-actions-skill">Get it on GitHub</a>
+      <a class="btn ghost" href="https://www.agensi.io/skill/6136e654-ebb4-4a94-b348-e520b4c38d80">On Agensi</a>
+    </div>
+  </div>
+
+</div>
+
+<h2>Where to find everything</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Etsy</h3>
+    <p>All template kits and single templates, from €6.</p>
+    <div class="links"><a class="btn" href="https://www.etsy.com/shop/FairdraftStudio">Visit the shop</a></div>
+  </div>
+  <div class="card">
+    <h3>Gumroad</h3>
+    <p>The Complete Kits: templates plus the Claude skills.</p>
+    <div class="links"><a class="btn" href="https://fairdraftstudio.gumroad.com">Visit the store</a></div>
+  </div>
+  <div class="card">
+    <h3>Agensi</h3>
+    <p>Each Claude skill on its own, including two free ones.</p>
+    <div class="links"><a class="btn" href="https://www.agensi.io/skill/6136e654-ebb4-4a94-b348-e520b4c38d80">Browse the skills</a></div>
+  </div>
+</div>
+
+<p class="note">Templates are editable .docx files that work in Microsoft Word, Google Docs, Pages and LibreOffice, in A4 and US Letter. They are business templates, not legal advice: have agreements reviewed by a professional in your country. Created with AI assistance, then written, designed and checked by Fairdraft Studio.</p>
+
+<footer>
+  <p>Fairdraft Studio · Montpellier, France</p>
+  <p>Questions about an order? Message me through <a href="https://www.etsy.com/shop/FairdraftStudio">Etsy</a> or the store you bought from.</p>
+  <p>Not affiliated with or endorsed by Anthropic. Claude is a trademark of Anthropic.</p>
+</footer>
+
+</div>
+</body>
+</html>
