@@ -11,7 +11,7 @@ One page that links every product, hosted free on GitHub Pages. It does two jobs
 
 Re-copy the pins after re-rendering them:
 ```bash
-cd growth-kit/08-link-hub-site && cp ../01-pinterest/out/*.png pins/
+cd repos/fairdraftstudio.github.io && cp ../../marketing/01-pinterest/out/*.png pins/
 ```
 
 ## Deploying (needs GitHub access, which is blocked until the Google appeal succeeds)
@@ -19,7 +19,7 @@ cd growth-kit/08-link-hub-site && cp ../01-pinterest/out/*.png pins/
 GitHub Pages serves a repo named `<username>.github.io` at that address, from the root of the default branch.
 
 ```bash
-cd growth-kit/08-link-hub-site
+cd repos/fairdraftstudio.github.io
 git init -b main
 git add .
 git commit -m "Fairdraft Studio link hub"
